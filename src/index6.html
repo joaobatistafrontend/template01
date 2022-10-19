@@ -28,10 +28,10 @@
           </div>  
     </header>
     <nav class="flex items-center flex-wrap p-1 bg-transparent text-white ">
-        <div class="flex items-center rounded hover:text-green-900 p-1">
-            <img src="img/republica.png" class="h-6 ml-2 mr-4">
-            <a href="" class="inline-flex items-center mr-4">
-                <span class=" tracking-wide text px-2 py-2 hover:text-green-800">eNTIDADE DE TESTE INTIGEST</span>
+        <div class="flex items-center justify-center p-12 m-12 lg:p-1 lg:m-0 rounded hover:text-green-900 ">
+            <a href="" class="inline-flex items-center mr-4 ml-12">
+            <img src="img/republica.png" class="lg:h-6 lg:ml-2 h-6 ml-12 mr-4">
+                <span class=" tracking-wide text px-2 py-2 hover:text-green-800">ENTIDADE DE TESTE INTIGEST</span>
             </a>
         </div>
  
@@ -41,20 +41,20 @@
 
         <div id="navdiv" class="hidden w-full flex-grow  lg:inline-flex lg:w-auto">
             <div class="flex flex-col items-end  lg:inline-flex lg:flex-row">
-                <a href="#" class="hover:text-green-500  m-4 mt-6">LEI ORGANICA</a>
-                <a href="#" class="hover:text-green-500  m-4 mt-6">REGIMENTO INTERNO</a>
-                <a href="#" class="hover:text-green-500  m-4 mt-6">CONSTRUÇÂO DO ESTADO</a>
-                <a href="#" class="hover:text-green-500  m-4 mt-6">CONSTRUÇÂO FEDERAL</a>
+                <a href="#" class="hover:text-green-500  m-4 mt-6 lg:m-2 lg:mt-6 lg:text-base">LEI ORGANICA</a>
+                <a href="#" class="hover:text-green-500  m-4 mt-6 lg:m-2 lg:mt-6 lg:text-base">REGIMENTO INTERNO</a>
+                <a href="#" class="hover:text-green-500  m-4 mt-6 lg:m-2 lg:mt-6 lg:text-base">CONSTRUÇÂO DO ESTADO</a>
+                <a href="#" class="hover:text-green-500  m-4 mt-6 lg:m-2 lg:mt-6 lg:text-base">CONSTRUÇÂO FEDERAL</a>
             </div>
         </div>
     </nav>
 
     <div class=" flex items-center justify-center px-50 mt-20 p-10">
         <div class="text-left items-center justify-center py-10 px-8">
-          <p class="text-white text-xl xs:text-2xl mt-2">Do que você precisa?</p>
+          <p class="text-white text-xl xs:text-2xl mt-2 text-center mb-4">Do que você precisa?</p>
           <div class="flex flex-row mb-12">
             <input class="px-12 text-gray-700 bg-gray-200" placeholder="Ex.: Lei 123/2022, 123/2022 ..." />
-              <button class="centered-3 bg-green-800  py-4 px-3 rounded inline-flex items-center">
+              <button class="centered-3 bg-green-800  py-3 px-3 rounded inline-flex items-center">
                 <svg class="fill-current w-4 h-3 mr-2 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg>
               </button>
           </div>
@@ -62,35 +62,43 @@
       </div>
     </div>
 
-    <div class="flex flex-col justify-center items-center p-12">
-        <div class="grid grid-cols-1 h-64 w-1/4 lg:grid-cols-4 lg:h-40 lg:w-3/5 ">
+    <div class="flex flex-col justify-center items-center p-12 lg:p-0">
+        <div class="grid grid-cols-1 h-64 w-80 lg:grid-cols-4 lg:h-40 lg:w-3/5 ">
 
-            <div class="bg-orange-200   rounded pl-4 lg:">
-                <button class="bg-white rounded-full items-center h-24 w-20  px-4  lg:w-24 lg:m-6">
-                    <img src="img/municipal.jpeg" class="">
+            <div class="bg-orange-200  hover:bg-red-600  pl-4 pt-2 px-12 lg:pt-0  lg:rounded-l-lg">
+                <button class="bg-white rounded-full items-center y-6  h-24 w-20   px-4   lg:w-24 lg:m-4">
+                    <img src="img/municipal.jpeg" class="lg:p-1 ">
                 </button>
-                <p class="">MUNICIPAL</p>
+                <div class="pl-12 -mt-12 m-10 lg:pl-6 lg:m-0 ">
+                    <p class="text-green-900 font-semibold mx-2 lg:mx-0">MUNICIPAL</p>
+                </div>
             </div>
 
-            <div class="bg-orange-300   rounded pl-4 lg:">
-                <button class="bg-white rounded-full items-center h-24 w-20  px-4  lg:w-24 lg:m-6">
-                    <img src="img/estadual.jpeg" class="">
+            <div class="bg-orange-300  hover:bg-red-600 pl-4 pt-2 px-12 lg:pt-0">
+                <button class="bg-white  rounded-full items-center h-24 w-20  px-4  lg:w-24 lg:m-4">
+                    <img src="img/estadual.jpeg" class="lg:p-1">
                 </button>
-                <p>ESTADUAL</p>
+                <div class="pl-12 -mt-12 m-10 lg:pl-6 lg:m-0">
+                    <p class="text-green-900 font-semibold mx-2 lg:mx-0">ESTADUAL</p>
+                </div>
             </div>
 
-            <div class="bg-orange-400   rounded pl-4 lg:">
-                <button class="bg-white rounded-full items-center h-24 w-20  px-4  lg:w-24 lg:m-6">
-                    <img src="img/federal.jpeg">
+            <div class="bg-orange-400  hover:bg-red-600  pl-4 pt-2  px-12 lg:pt-0">
+                <button class="bg-white  rounded-full items-center h-24 w-20  px-4  lg:w-24 lg:m-4">
+                    <img src="img/federal.jpeg" class="lg:p-1">
                 </button>
-                <p>FEDERAL</p>
+                <div class="pl-12 -mt-12 m-10 lg:pl-6 lg:m-0">
+                <p class="text-green-900 font-semibold mx-2 lg:mx-0">FEDERAL</p>
+                </div>
             </div>
 
-            <div class="bg-orange-500   rounded pl-4 lg:">
-                <button class="bg-white rounded-full items-center h-24 w-20  px-3  lg:w-24 lg:m-6">
-                    <img src="img/minhaconta.jpeg">
+            <div class="bg-orange-500  hover:bg-red-600  pl-4 pt-2  lg:pt-0 lg:rounded-tr-lg">
+                <button class="bg-white rounded-full items-center h-24 w-20  px-3  lg:w-24 lg:m-4">
+                    <img src="img/minhaconta.jpeg" class="lg:p-1">
                 </button>
-                <p>MINHA CONTA</p>
+                <div class=" pl-12 -mt-12 m-10 lg:pl-4 lg:m-0">
+                <p class="text-green-900 font-semibold mx-2 lg:mx-0">MINHA CONTA</p>
+                </div>
             </div>
 
         </div>
